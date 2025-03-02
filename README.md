@@ -18,3 +18,7 @@ npm install chardet iconv-lite fs path
 ```zsh 
 node convert-srt.js /path/to/your/file.srt
 ```
+
+## Preview
+![image](https://github.com/user-attachments/assets/aef1d484-678d-4e77-ac1f-992b01908b39)
+
