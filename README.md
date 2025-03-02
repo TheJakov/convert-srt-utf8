@@ -3,8 +3,8 @@ Easily convert `.srt` subtitle files to UTF-8 encoding. This ensures proper disp
 
 ## How it works
 
-- Detects the encoding of the file using chardet.
-- Converts the file to UTF-8 using iconv-lite.
+- Detects the encoding of the file.
+- Converts the file to UTF-8.
 - Saves the output file in the same directory with `_utf8` appended to the filename.
 
 ## Install dependencies
