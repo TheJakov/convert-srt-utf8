@@ -1,22 +1,35 @@
-# convert-srt-utf8
-Easily convert `.srt` subtitle files to UTF-8 encoding. This ensures proper display of special characters (e.g., Croatian letters) that may otherwise appear as symbols.
+# Convert SRT to UTF-8
 
-## How it works
+A simple Node.js script to convert SRT subtitle files to UTF-8 encoding.
 
-- Detects the encoding of the file.
-- Converts the file to UTF-8.
-- Saves the output file in the same directory with `_utf8` appended to the filename.
+## Installation
 
-## Install dependencies
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/convert-srt-utf8.git
+cd convert-srt-utf8
 
-```zsh  
-npm install chardet iconv-lite fs path
+# Install dependencies
+npm install
 ```
 
 ## Usage
 
-```zsh 
-node convert-srt.js /path/to/your/file.srt
+```bash
+# Run the script
+npm start <path-to-srt-file>
+
+# Or run directly with node
+node convert-srt.js <path-to-srt-file>
+```
+
+The script will create a new file with '_utf8' appended to the original filename.
+
+## Example
+
+```bash
+npm start subtitles.srt
+# Creates: subtitles_utf8.srt
 ```
 
 ## Preview

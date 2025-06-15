@@ -1,0 +1,16 @@
+{
+  "name": "convert-srt-utf8",
+  "version": "1.0.0",
+  "description": "Convert SRT subtitle files to UTF-8 encoding",
+  "main": "convert-srt.js",
+  "scripts": {
+    "start": "node convert-srt.js"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.6.3",
+    "chardet": "^1.4.0"
+  },
+  "bin": {
+    "convert-srt": "./convert-srt.js"
+  }
+} 
