@@ -6,7 +6,7 @@ A simple Node.js script to convert SRT subtitle files to UTF-8 encoding.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/convert-srt-utf8.git
+git clone https://github.com/TheJakov/convert-srt-utf8.git
 cd convert-srt-utf8
 
 # Install dependencies
